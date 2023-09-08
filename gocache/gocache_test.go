@@ -19,9 +19,10 @@ func TestGetter(t *testing.T) {
 }
 
 var db = map[string]string{
-	"Tom":  "630",
-	"Jack": "589",
-	"Sam":  "567",
+	"Tom":     "630",
+	"Jack":    "589",
+	"Sam":     "567",
+	"Michael": "12",
 }
 
 func TestGet(t *testing.T) {
